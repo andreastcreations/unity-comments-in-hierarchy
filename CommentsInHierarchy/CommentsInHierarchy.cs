@@ -6,6 +6,8 @@
 /*                                                                                                          */
 /************************************************************************************************************/
 
+#if UNITY_EDITOR
+
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -13,7 +15,7 @@ using UnityEngine;
 namespace ATMedia.CustomEditorTools
 {
     [InitializeOnLoad]
-    public class CommentsInHierarchy : MonoBehaviour
+    public class CommentsInHierarchy
     {
         static CommentsInHierarchy()
         {
@@ -105,3 +107,5 @@ namespace ATMedia.CustomEditorTools
         }
     }
 }
+
+#endif
