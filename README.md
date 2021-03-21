@@ -1,0 +1,1 @@
+Just add the C# script inside your Editor folder and you are done. :)
