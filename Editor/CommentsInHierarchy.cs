@@ -12,7 +12,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace ATMedia.CustomEditorTools
+namespace ATMedia.CustomTools.Hierarchy
 {
     [InitializeOnLoad]
     public class CommentsInHierarchy
